@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film</title>
+    <link rel="stylesheet" href="film.css">
+      <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEX///8jHyDz8/MlISL09PT+/v4kICH9/f319fX8/Pz29vb7+/sAAAAOBQienJ0KAACqqakSCw1YVlcbFhgeGhsVDxEZFBWjoqKYlpcMAAXt7e3e3t7X19fFxMTk5OSHhoZgXl43NDW5uLhGQ0QzLzCQj4+6ubmwr68+OzyFg4RPTU1mZGTOzc16eHnZ2dkrJyh6eHhubG17envwbf0yAAAelklEQVR4nNVdaWOqvBIGFVEIIrK51K1qbdXWev7/j7uEbJMQNlvte/1wDtoJmSfbrEkMg3wsq/BglD08nvZ3X5d/hi75ag2H/IH8xXb5g11GWyDR0RoltIykDW0bNsnHdWz6Tvqz7bqUznEZyfAOWrcBrc1oLZl26P6oavbe/OPQny2H/mw7jkXpeEm3QGsxWqOU1pZphwVaR6W1q2iLVdeymb/V6ZGfrUGP1DLsDWjJDq3F6bCSPVqy16OMMJIi7YDS2ozWLaXlVdtVVd/BZj6IGO6M6fqSHZW2MygF2GkDsIzWKdACNsuq5rQ5tCHrT96MnV8FaAmmy2it8sYoAhyIqsvZhMPZYotBr1MLcCAAsiH6Oz1YX7VoW0FbV7VFxiKVGrBX/m6IFqsuHaL1bPKqlZINBvf/yRxktLSWNuPkt+cgq7rBHGzCJq8aAmzE9O/OQVY/k9mPalvaNE8XE5bbWS0ub8d0Ok3Hr5fFqsOUrWZDtDGbNv7Pch4D0CoF+HL8nLxHCCHfCwLPzx7C7ek2vji40M8AKkM011ItpsH98jjR9WBGMh9votksCSMz+3S7Jvn0zTDx/fiUXniNBYB3zEGirg7d2vX3l+agY6/SE/ITs9snuDhA9hAF6Hr4qmvbOjZ51cMB/sGidsjDxYTReTv7foThlAHsZw+RhybHjltadSs2cxIq8R8uJobpe9Z7Zh1A/AmzjuzJVTfSKNUhyqpmJcuZ/oUhah9NPzKbAcwezABhjPepaiqb7NtDF5nlO+JwGgDEJLNo3CsYPa3YZLMj//bYObi6oajfEmC26qD3i1L1PWxahKOHzsFxEHfbA8z+EqIP605VjbOZS3zbeaSYmG+QeR/A7GG2/zIGd7StcDy4uYHoPHAOXq5x/26AeKiO3Z9Is9y6Z163Nn3fWFVL/UgPMEo8JD6+l0Q6gNnH/2ZV38EmlfgNmubeIfqBNEx3zQQF1/PodbkgEnl1eRvftgmKI11jzE5OjeOhTEy40nL6CIDuTQcwQfvb6wrT0LcQ3cqYL/+9oyAqDud4OzfaqGoFQ6Ye4J1zcDiZFQEG/m3ZKdLmv7iDlw8TRYX5mmy/3B+w+YsAFTEx8VSA0cw7rCicEoveOV6B8KRzMbrOS9msXSqaMt26B+1NAaAXjViZinllHd992bTKJGM0b8pmwdYua5ofi4lPXwEYeuuOPWjgVTOsNIoVkZLsnFaqGqcd4j/wAMFvAjyoi4y/e+FjqtarNs/WKFlmBme3d8cQzSW+7biFkj8G+KYAjNAa05arX+p7j34oT0b/w2oPkMRnVGPzN1S1RSAL+qS7NIwmwRduD7qrnQcB9rvotaZqTYxIkvi/2YPuLpQAxu+rqkiU3unkZCNVUutmq3vZ/DlA1ZpY+xJAL9NK7gm+fCBJb01Od2qUKtO1Q3TICjolvXJBMsCNVWUCWY4yirhFb6wRAGiaaGTcI83kb1WqGv7LYL54G4/SUXp8e1msLC1Aey/pl0EOUA2+2I7lzF/exulodLysOoZu8PTsAwIAM4H6ojRG1RxsO0Szjpsv15ttgPyZ53kzH6HZfvLvdYHns9wrU09aZHaWJvhifKW3d4+4hLNX7c+jC+tSyaL/8KFpFU7q2NQoEKJ7Kksai9EpQkFm4wCdMQpjFL+vL+zlhHaVmFBMXDtQTFCAx1Pi5/YSHc5REnjbFPekOpw3MbQd0ZKw2XwOSlHu8jnovp2Qp9H6c+ZitE8H4OXfMQQYfxWYdlKf+t2gzMyUVvRvziM2rOphNuQFbbQ3GqlqAiD+vyDx1aZxxluk4Ug8RH5yWDFb6AtBTQYdC2Lidc/1FdXyCLxph7yFxyasSwBp/WMTVU3Mujxg4RaWMhngeO+zYVfqj4i8aE3ffk4ASXxWZWbnjKIylwVeSzLdDgJ0O1aKAG303uk1H6KDQR55sisBvrwLjqr8LKbXxTqHu0CQ1uspqtrFjM1ygNlfQjRWRcokAbR4UDQGSNuWfdPNQXeNhPqlH6LkL3isos3cGP6LAdOZoiWrakf8uiqAuNCHPZCYXkEdN9qBAVE9RGWA+h5cvAMTqAZg9onN17kJFqRscZeVghSVe9XE69BNYXodAFp0uasH9QDf4rCCEY0r0IwnIaBFF1eag+NGAM2uf5OZnsemoI0/fwgQDNFptoK29XVCkZJshlLE6K0hwK6JTS3AtDv1AS1yjBZGj5LXJjXNBzLbDNEi02jpQFVt4dfPQfaQrSeQ6U43ErT+q9t8DrK8Nt36+08LMAqwAzfO3bleUgkw2g3ZIpNztA0bA8x0nIXkeDgEgjbZ2M2NHjmvTdODsphIfH83ffvqua7bmS+W6cZDcZnwztp6bNAhmgM8+M0BYktJsugXAZCZ1PHWxGwdyHlt8hxUezDyzdsbeXemh9GXX/7tUahn2kwcCjCXbV9+tRyUHzKL/igxPQkFLVFOGwxRu5dHZDR5bfmioAD096NMaZSGHe5+y3k96Rek5FuiPSetAHajrguZPnqCNlg37MGSvLZcDsaRDDD2Ry5U6SVz6W3v9YtMk5ZmtbygdgCzJk2hfjlHggTbUD8E6O4UOYjO86osC2eNNDH6uQHUr1vSEqAZbV1XMG3sQkGSdKw7AEIBs5Y1mcg76koKn2TPuOxjhelkYwCLfo7giG8CMJMYb9CqG3mCBF2cBnOwvAezESUBTK4v1QDxw3ziyUwHU1hLzl87gGZyg8vpBTjevLQ0UFNgU8lrI33/LknmZD83yr1qvBbr7ElMZ+qjCL5YZIy1VQEdyj2uuocEbbyuA8jZZHltkg40ljxlydap70EKEfKarETMb7CK2wNkLgta9XAXcdrw3LQHWV6bBNARnrKslvA615UsAnQG7iYQvEZ7d8BtPHcJjdjGOi4e6IL7W8hJom1DgK6c10aHXerDRSZoMAdZLZ1tKIz+nQWM2Kl3B8BcKnAJ5X7EgsRvCJBOIMXp9A6Te5B2FeWOD6WWhZgr4dkGtdySOwCa5gyIYDedCVpktwBIP1yCvsF1HbtZCiU7l/EoHS/nw2ItI58xnfyDbTBpaWcy46Qj7OdczeJugPn9AI0J9KqhTsGRNJ4EyPNwXu9u+mUotTg7WrobH0At7q4k5aQaoIm+gEZ5AaYA+iqEPJsCHEqOJH+krr+jK8psIEISBcm/DqzFGjgXREt7I1BLZ6tNI6kD2EUvAiCR0szPITKJy2NEMMotchpdKppzRqKrKzfNYqsYsYG/hAA7NvEl4khYCmrp7M17AFKElOkvJEjQpXEPDkleG18ZqfpHva+pXHKJQpWRCE2HYkdZRnvxCdO4D4WfZcvhtPIU5Ah1ujvt3AYAWV4bA+jOA8C9OZfi7ks/0s0Vql+w4MuOeFczWSZqmb+3SJ6FK/kKaJQXBHSBRVOAUpQb/5yLZlpLphfCwb2Y6QB2WfCZOX7HXk4SfxhgtTuVxDxqfD2oB3a+vPqCBEnR4AqNspjXtgb+EP/NgU2z1wOkLc0AWiuy1iQ3F6x2dHa2dWYhYPQ4VB6SNd5p1oNSCLEouKI5tOhHpa7APDbBBZdN+is6GQyg0nDNAUY7Qxg99gFMINQQIJQX5JuzFYKL8UjlYL/cFSg5fo0p5qRvbgFALK3vyC2NP1xg9OThArpCXO8FaKxCEQCNp7DkGJUyYsY3uOlmmUtmM1oJgMYquMff6h/FXhfDwmODkoQT906AmcwBK8gbLDkJy/0sZtCjtWBle06Gcy6yeEtvzfYAyXpiUK+aA1Tb+J/bHKCc17YE0U1JGM3Dcr+o4nRyujn3sxSkkdjruD1AFrQnCtcXcDwEU6MxQDmvbTieifqxTsqXMiiMCgBz8c5roaZqcgN5Ms4X4u9tCrBLPcrMLgcpOqRFG+3jVPLahM5m5uuVMJfGlX6W+Bt41YZEd4/28x5QHk9hW4Bmdw4AGhvhEu7786Y9SKPcnBEjBalkQBi57tSrAIj9aiJXzdkQYxxdYPR8iVoC7OZ+X+HZ5itEvxvt3KYA82RPGOWmLjsiAwxRckg6t8wECjeA1iWB/D61n+hqY+3CdgDN2Rz0oFghMtr4uynAYtIQ1hu4hSISgQbZLKgAmM25Iagl78OspfdSLUvUDqB/gACNcyhIcj2xxV5q+O0owieZHQ0KLFEFQDM4gC0bNp5yufK4BLVY7llZTqsBRlcbBl9W0C4PV/f2YN7QYsFagAIrTda9aAz/CF7u7GnMIznD4LIzj6Xk7ZpQG26eITBbgVIanu4HKEv8JSiQaZvlAPsIZtJ3uOBCK5cDzNSv3NHSFOABAux13sGOmlnaCqCc1/YlUgJkK904BOVWerbQgJeL1Mv4cyilUx5QU4CBHF2yXxEgQavydPECQPn0FsNZ7SNeCw6tiJJfsYYR1ttv8OUp9+6b8UL0IP58e80AJu+uHADdgjB+NkhbAHSkvLZBjwhmwn3Uh7UY30EZwHBnw5dvhL+VLOscoDU4oyYA4/e5HB8cA7s8W0mdFgDzgAVz7+LB/S8W3PsXB9TSQyUAyZopXg63w2L1G2xSdowbqgfo7ToyQCcGG8CjK7O168WEJee15bP3Fage8T8LllyW2Hhy7ovNnA3EW5dZiSylmTA9qkv7itDNUiK839B+9qjW3ebYGwDQWHliMTD3jlRyinQA/Y308iFJimIc+QdL2aR82bM1SwswjlM1CUGSxVRbbXUqDARoGHthJVEfk7BDDiCWznvw7EqK7lcsM+1TM4DvADXm/1BSBjBCm5Uao+9cYSJEcPghQIMZcvnpBiepZM84okQGGCnpWR3jQ1mQoj3ZigfTKRcbFGvc/GaItkujkISwiaHBEZXs7Gs2RPGyeoGrXSYG5JKrc4aRC/oQ7S7yy4erwoobT6xi5sTX55WkeXPaKPGSjS5PZi1Nf5Q270G6ING8Np5/ZrxHHKAZdQu7qS63CHlxksSBjzZvlvrym5qwkO/jtQublI3V6/cW4TeFSRJ4CF3PKfFZKI1xlPZPEW2+1clMal6bZaQw/d+jDm2YGd5Zjv6dz9+HY2HTI3UoqysuOgy1+5yc1dtofTufb+vR62LOJrsMcClt8SOCqfzYGzhE2aAkUW7oF+1EYDnv+xe1pM2Qal4+iLUnl6BDCSNg9w1zECgAcQa2eF3w2bQHWea1lNfGSh4CIK+iPBGj2Pf6DZKbWKsU9ElsQxfUdKWq1Tkob/Ez81Wr3QmFMK+Nl1yFJgdo5guFBqB2c9baL9F6THTTAazb+TKSAeZj9K7T0VgtzCezlnwys7PV402u7HyRAY5QGcBsQp/mbhFg9baCT0WJwiPhrtPRCr0yjMF2nYy5c6GkduGYVgDMzIX4TQFYs/NltVWSrOJJyznI2CwAJMopGB7eJpeydUO0EmA/Wwc/ekb1EIVMp0EoD9FwO285RNmmG6kZaYGNfFhHsF1UZibiVJpN6RwkALHNsH813CZD1DVeTnIj491Vi4Y9qO4CpHltcsm5KcfdI3/kVJ54tkz0q6hs8EboROPvVQAdfGBPqLwuQi/3DdGh/vQW41Xa2pN9iH6mFRMO1uVqT/AiDxGaLHH5cjFhOS+fSMTRGMBMgW8lJng/SHltoKRxQBJArGOfLzp1wna/PryiqqYHmJGE6JSuLHYmcqEH58dNjk8BOGsKsDKvTV5/cZ6W4rr3T2Ma7hIvH7xu4lL3hgZgPuSjCX0Ry+2zifY7f7td/UKaJh6iy0aOXz5ElYFmKQXyh8W+eMIIPituN13ObZLTaA8u6cYnR7C1AIhNoNBH0W28XLFVodPpXI4fe0Rfpvqlkq9GbsPyQzQ1JZeaI1SI4hQgFL9PNufJzsxMg1DHUR1AsnglflZ+f8KvOm0ThPxYbMCVe3CyqgSY/cV9GX2cz/+mL66mB/UAZyUAaV9GYRJG7fdEFWmjMH9TJJMoiRDrKmvCdd3L+j0zw8IwzoZYOjTKAMLBfSnrwSZM/4C2hASN7NI5aF8+9n4QMdoI7S+2ApCEbaWmmf+3AJomzUkq9KD7ssZnS0m0Ed1rI7xLSl4bfjglzwNYJNEkbeCccRmgm8PbIhCE4A95e4BRLOe1UZtFYQRvlvd8/Jl5AXvwZvlD9sOM/WWmklTQFl5HHrL/symlMh1vJKbxRFrjQ7O0bRuhFaRV89qoxxQuBp63/Z6m4/yTpvxhXPfQgFZLkn7sYj+SBwR6BQuHc1lf8ZlgZYMHBzbYQqs7r+0Wyy7263QlnA0sAGCJKynYX4oPnLachD9Q34hNfugc32cS09HeoS4xl8Krmh3oTc2vhQBXSDarPzLLSW8uwVf87HRKjf+mkwbSCoLGuajDgzOuzeSk0T49QOMjlgC+ltqDEtM/OiFWr359xRFg2twbBl5agianhFLPvx6gm8D0rNwx8tuH+TfdpLyKwNkL3fg7QkHTfHg540yu5c2HANNSr5oM8CcnxJY3xsXrC6bNJKqWUCagxXkFapSbrVPfiSgZah0jD5+DYhf2OhBMk4cygFGM3gGtNwL6uHxeW28notxk91l9D/7ohNhygJlFRfao1wLMrIHu+sUAsVdPnLak5LUNVgBguHvYIe2NNilntLgT63T3AL2vL/i1YMOJN+WZbEpem/UFdt7M0j8QE3JjvNQcwpDB261f3GH+FkAbTC3WZ2peG0x5QRfVQVUhJu47IbZ2xYXpKYVwY4wPqM8K0rUQ0AYj5b3i29gHQnbe4HjhJlfTtBUTYDhvy/J2o8C7Hl6kqlGf01KEuqyokQjj5xn/CiN3iIkGJ8SWAzROxcOb+vnc27Hjt4TjFyQvkk1X2rSvkccB9v3mAB913jlLe4AA8dJyeGFlQForEo2RI9TntY0CLkH7qA7gg8QEcFkYE/lEir4ZoOjwYvEDwUSMqOci0RgYIWfTlmqZBgxg10R1vdJpz3SbIYpJJiEAGMXelsw9bduCrcZA4it5bS5DmOtsxk/n4D2qmqxETULGNBEM5HX6OC3IDPNGtpTXxi7WswYsnZuoND+fg/doMpKEopuUMnj7w4Wfq6IGXwgtiOUETOKzvDaWV9ehRx+Q1Qb9iaomi+BJfgxqjAWD7dRUrdmPodxKhoU3PHzCt/5GVYMkE+yKydOg6k1RcD8BlYdiZx8tOSTHVzB54Ts/G6I/EROMZIINXi+VAJbRInGCDJGHKsC8Fijxfc7rk1U1YMzlm1MyhMXZUTBbXZD1mSMsAMy/CYnfZxL/SRa9NkZPJL6X2vXTn0v8LpX4uiFqAInfZxL/d67nu2cOconvjVx1DmocD0PEAWKEIjFZymvjEr/PJP4fzkEu8ZmlUJmv5BogppshlG4l4/fK2kzi95nE/wtVDdJihN0gra+aSvwuk/hs86mS19Zx2fYmKvF/5mf54RClEj9bGdNGbQuyXTKJT9kkPm92eXCvR+RhXyPxi0P0caoaeMA7V/s5wvqbPEG4hUl85VYyXAtGyHwB/p0Af67JAImPNx1ihGWqGngdcNbTmSsyr/OSed+PPOHs8IvHCz9HVdNI/CbTvyDxuTSDTTPy+hqJ32YO/o6YUCV+gzsHgMQnFvBQAUhqqZD4zxUThHbI5GFFSh13G4KNBBghZ9OSSgKJbyLpFb8ffGmwQZJLfDnHV1u1BfZSZwi5PkLz2lie4hScnY0kgM9T1SCtJPFr2ha4erHPmx+Wb8G8NiHx+0ziP9OiL9JCiV937wdw9Wa9zh1UQwYzL2nDDc3ob+dgTgskfu3FJmDHVibx6euUvDaHSfw+kfhPVNVKejs/qyJHWB9CAacOMokvFmX+jUj8PpUW2vOTq5n+JTHBaCf4eAaMsEGMiPu8ucTXACQSvy9L/DtVtZ8PUUPIwwZhTIP5vE3loDEJYC7xmffVB/4byvSTNBneXhZDWN+2cGcnkfhagFgeMtWHSvyHB18qAA5sJg8b3J6kSnxOaxGO6Lep2LFN5OHDgy9VAHtMHlZcQclnhyFLfE4rn95iCZ83kfh/JiaouSRJ/JqqFYnP3ivltTnC500k/pMtehkgrhpK/PJFhlQNJf6Up+opt5JxnzeR+E8JvlQBhBK/dvBIEp/FtZVbyRzl9JZGq+jvq2qGsOiFxK/rwUZRbof5vKnEd5rMwceICUbLJX6Dtq2PclOJL3ZhU338eRZ9QUvkEr8BQENEubs1UW4u8Y3WTP/aEKXrG/N5G/UAbRHl7uqj3EWJTyzgPxIThNZiEr++6p4DNqHDKLeS11aQ+A8PvpTPQbwBnMrDofI6bduCO+gKeW08yj1Uo9zPtegpQCCC8yh3YWUsDlFctZTXZnGAynltSpT7T1Q16FXLo9xU4tfNDhDlLuS18UGgRLmLBwU8cQ7mbYuj3FTiV83BvGopr82gtIVbyaQod6XN8kBVzRB5MkLilwfB2EzSSnx49kdeUhvlfraqBkQwl/gNBg+Q+EQeiuNMQEkpyl3K9INVNeF0AlHush7kAO3fyGt7kqomvGpM4lt1c9DQ5rUVe7Amr+1JqhrQEpUot3YOMtpiXhtlk0a56Ssa5LU9R0xQEirxrRKAUtvKeW0iHx5KfKsqr+1pYqKQ10blYdUQxbRSXtuQ0cq3klXltT1LTGjy2jxZ4pe5juS8Nlq1I99KVpHX9kxVDZDkeW3yyljattq8tsKtZJLEt6uG6OPnYI4w32LY/bfsWNrr7yBtMcpdOL3FLs1re66qBkgmZCNXjPa3pSNXXdAo6/Pa8Dd9XtvDzaUyhx6/MKVrJqh7W2Z/GpSFMevy2ui3qry2p6lqgkQ6wC+KEfp+c8raVs1rU4Yomwi6vLY/EROExJDubc24ynryc4nvvilWXZbXJt9Kpstre7qqBkkmIQSY73PK5uTnW0fzuoq8Nqsqr60I8CligpJM1HNq8CdKZsnncqjSKnltlE3lVrJhWV7bU1U1QJL7vHW7RWMUfC7nkjYn57VRNuVbybL1V85r+0MxQUnyvDYNQPxJ0PVzORC09XlteJwoeW1PtuiLrnt4v6oCEB+XF6PrbenSHtLktUlZUfSEWF1e27NVNfC6SVQOkOwfzURIBpIgVCQ+n0mMacuQ8tr6vuKlfLhFX3ydkPglAPPkrQSFmVpn+IKE5rVJAKkOBCU+YtU9SEzUAwQSvxwgU+u+QWPkeW2MTUuqRSfxn2bRF9VgYxc1ApirdYDEHwP/Da7HZqdaSxd15Le8PDz4Uh2ajAGuhJ+nULu7G10KUW5ai7MEzg60fIaYqMg2dI05iFwn3+kJzaQTHctvo1hxT6iS1+YufFEy/n6gNVE/B/HDK9iWnI08a5XukBf1a3rQjE4cYOH0ls4enM0Qzgd/JibIwykUc3BGNv6uRu/BrOSuc94YheuCwbdNAnwBB0Nm+kmqGn9YgvtEzCvRtoeusRidZrOKQ0Ciq6qYw2+jGTw4Lr/a4C/ERP7g7sBJQ/INE6vRKRuueoAmeqsAaCx8cEt6gi89eL6qxmg/PSAmyDUonNbqLdItPhFPA1C98Fn5xq9KxSWDk208z6JX9PwPBOUgcou02cITB6rWgz6UquUot+McgamcQdy90HXoCaqaRNu5SQDjT23V9gsdrtzg8FOlajmvDZe8SqdMReE0vzVu2CsFyBwEFmMa0KrOLLDIUBINLSY57gNJk8HX+uh628JzcocCfDBhFM7Q+UVhU4ly45JH5TxgL/l8W1k80s83tjsssMrGN0//u4eWHQuPD2ObLw9X5TgzfFR5uQM+W1033TjubtKFKibU01vyh1OizN7MQHnyJz+MDQCMzHnV7BiwhnMLA42c3qJYSV9BX1mexE4h9hf2f+VDA5JSWlnZRsfyBanRYi9/s6eaizoo0kYnbf06bXCuGKLtAQ46xs3/TwFMttawdIg20Sg1fb+ZVTGiOZ3yoQD38+LZB22cfxqAhrPxH8p0O4ArXeJe8yFKJb5S0r6hAkd/A9B77/wMoJzXxgf3wEi95D8AMELfRjGM2cbxIN9KJgVAvya6u6eeOwf9vXqVj8JmrfNPzWuT+/54RepBVE8E2I98/+D8UEwMlLw2paTROe78WfIbp1q3po0CdE17jSy1mlNCxUe//i7SzdZD+Tm/XhAEntfwIQAPDWjhDzMfoevpcCljur3zT/652Pfzl8sxHWWf6XREPoWHqXgoIxk1JkmPy5dVGdP3OP/Yz6WDm+VL2UyAVp0dbCm05ccLV9CWJ0Xe4/wrlPwbr9qd3pIGQ1TOa/uD4IsOYB1toznYk/Pa/i74UgD4yxt05Ly2vwi+KAB/e4OO9layJwdfWjPdis1CXlvbWn4efJGrbrU5oHk/PAZgw+BLw6p/FMYkJfn1fMyt47IHskvRYG4dzL1ToHVlWsth+WeM1m1Ea5TSwnzROjaVquWStnDvFR/selrOCK2Fc1RFq7xOR9u4asNRack3l50Vxe/bYarHkD24LNG2QDsUtApJBW3hddY9VTehtcW/4MGil7XAB4WkDa2OxJJJfo22wKb1P85K5bfhVcLjAAAAAElFTkSuQmCC" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div>
+         <div class=" main-menu  sidebar">
+          
+         
+           
+           <ul class="menu2 ">
+             <li> <a href="#" onclick= hiddenSidebar()>
+               <i class="fa-solid fa-x" style="color: white; font-size: 25px; padding-top: 10px; margin-left: 10px;"></i>
+             </a></li>
+             <li class="in-menu1"style="margin-left:10px;" ><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8gL4ZCjKIhU6lO6imK2Oslm-M_6A7iAuig&s" alt="" class="in-menu1"></a></li>
+             <li  class="in-menu2" style="margin-top: 20px;"><a href="index.html">Watch Movies</a></li>
+             
+             <li class="in-menu2"><a href="types.html">Types</a></li>
+            
+           </ul>
+        
+        </div>
+          <div class="main-menu">
+          
+         
+         
+             <ul class="menu">
+               <li class="in-menu1" ><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8gL4ZCjKIhU6lO6imK2Oslm-M_6A7iAuig&s" alt="" class="in-menu1"></a></li>
+               <li  class="in-menu"><a href="index.html">Watch Movies</a></li>
+              
+               <li class="in-menu"><a href="types.html">Types</a></li>
+               <li> <button id="loginBtn">Login</button>
+     
+                 <div id="loginModal">
+                     <div class="modal-content">
+                         <span class="close">&times;</span>
+                         <h2>LOGIN</h2>
+                         <form>
+                             <input type="text" placeholder="Name" required class="login">
+                             <input type="password" placeholder="password" required class="login" style="margin-left: 0px; margin-right: 16px;">
+                             <button type="submit" class="button1">Login</button>
+                         </form>
+                     </div>
+                 </div> </li>
+               <li class="menu-button" onclick= showSidebar() ><a href="#"><i class="fa-solid fa-bars" style="  font-size: 25px; color: white; margin-top: 10px;"></i></a></li>
+              
+             </ul>
+            
+         
+         
+          </div>
+     
+        </div>
+       
+        <div class="main-search">
+            <div class="search-box">
+              <div class="row">
+                  <input type="text" id="input-box" placeholder="search the movie..." autocomplete="off">
+                  <button class="search"><i class="fa-solid fa-magnifying-glass" style="color: #777777; cursor: pointer;"></i></button>
+              </div>
+               <div class="result-box">
+               </div>
+             </div>
+           </div>
+        </header> 
+        <main>
+            <br><br> <br><br> <br><br> <br><br>
+            <section>
+              
+                   <div class="main-header">
+                   <div class="main">
+                      
+                         <h1 class="header-name">Deadpool & Wolwerin - Deadpool 3</h1>
+                         <div class="flex"  style=" ">
+                         <div>
+                          <div class="head">
+                              <a href="#" style="color: white;">
+                              <div class="image-wrapper2">
+                                 <div class="main-in">
+                                   <div class="in">4K</div>
+                                   <div class="hd">HD</div>
+                                 </div>
+                                  
+                                
+                                    
+                                      <img src="https://img.fullhdfilmizlesene.de/poster/izle/deadpool-wolverine-deadpool-3-79457.webp" alt=""  class="image_1">
+                              </div>
+                              </a>
+                           </div>
+                          <a href="https://www.imdb.com/title/tt6263850/?ref_=nv_sr_srsg_2_tt_6_nm_0_in_0_q_deadpool"   style="text-decoration: none; " target="_blank">
+                             <div class="rating-box">
+                              <h2>IMDB </h2>
+                              <div class="rating">
+                                  <span>7.6</span>/10
+                              </div>
+                            
+                            </div>
+                          </a>
+                          </div>
+                          <div class="main-header2">
+                           <p class="film-about">In 2018 , Wade Wilson travels from his own universe, Earth-10005 , to Earth-616 /" Sacred Timeline " in hopes of joining the Avengers and finding more meaning in his life after preventing the death of his girlfriend Vanessa Carlysle using Cable 's time travel device. He is rejected by Happy Hogan and returns to his own universe. Six years later, Wade has broken up with Vanessa and retired from being the masked mercenary Deadpool . He works as a used car salesman alongside his friend Peter Wisdom .
+                          
+                             During Wade's birthday party, the Time Variance Authority (TVA) captures him and brings him to Mr. Paradox , who explains that they are an organization outside of time that monitors the Sacred Timeline and the wider multiverse . Paradox reveals that Wade's timeline was disrupted as a result of the death of the stabilizing "connector" Logan while protecting his daughter Lauraa [ 1 ] . Rather than spend thousands of years waiting for the timeline to die naturally, Paradox plans to use a device called the "Time Ripper" to speed up this process. He offers to spare Wade by sending him to the Sacred Timeline, where he is expected to play a major role in future events. Wade steals Paradox's TempPad and uses it to travel to Logan's grave, hoping to resurrect him and save their timeline. When this fails, Wade uses the TempPad to travel throughout the multiverse, searching for an alternate universe "variant" that could replace Logan's own.
+                             
+                             Wade returns to the TVA with a variant of Logan, but is told by Paradox that an anchor entity cannot be changed and that this variant is considered the worst Wolverine in the multiverse . When Wade realizes that Paradox is acting without the knowledge of his superiors, Paradox sends Wade and Logan into the Void, where everything is being consumed by the creature Alioth. When Logan claims that the TVA can change his timeline, Wade agrees to work with him. Wade and Logan are captured along with Johnny Storm and taken to Cassandra Nova, the powerful and sadistic twin sister of X-Men leader Charles Xavier . Cassandra, who has made a deal with the TVA to control the Void, kills Johnny and leaves Wade and Logan to be consumed by Alioth . The two manage to escape.
+                             
+                             Logan and Wade meet a Deadpool variant named "Nicepool", who gives them a car and directs them to a resistance group fighting against Cassandra. On the way, Logan realizes that fixing the timeline may not be possible, and the two fight, knocking both unconscious. They are found by the resistance group consisting of Laura, Elektra , Blade , and Gambit . Wade proposes an alliance to fight Cassandra, and Logan is convinced by Laura to join them. While the resistance distract Cassandra's men, Wade and Logan place the Juggernaut 's helmet on Cassandra's head, blocking her powers. Cassandra is betrayed by her follower Pyro on Paradox's behalf , and is nearly killed until Logan convinces Wade to remove the helmet. Cassandra heals herself and opens a portal to Earth-10005, where Wade and Logan learn that Paradox has completed the Time Ripper.
+                             
+                             Cassandra learns Paradox's plan from Pyro and travels to Earth-10005. She learns how to use the Time Ripper from Paradox's mind and plans to destroy all timelines, leaving only the Void. Cassandra summons an army of Deadpool variants, who kill Nicepool and fight Wade and Logan until Peter arrives and convinces them to give up . Paradox tells Wade and Logan that one of them can destroy the Time Ripper by disrupting its power flow, but that will kill them. Wade and Logan destroy the Time Ripper, killing Cassandra, and they share the burden and survive. Paradox is arrested by Hunter B-15 of the TVA, who congratulates Wade and Logan and tells them that their actions prevented Earth-10005 from deteriorating. Wade asks Hunter B-15 to rescue the resistance group from the Void and change the history of Logan's world. Hunter explains that the latter is not possible because Logan's past is what led to him being a hero now. Wade invites Logan to meet with his friends; during a meeting that includes Laura, Logan encourages Wade to reconcile with Vanessa.
+                             
+                             </p>
+                             <br>
+                             <ul>
+                              <li class="main-name">Director &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<i class="name">Shawn Levy</i></li>
+                              <li class="main-name">Cast &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<i class="name">Emma Corrin, Hugh Jackman, Matthew Macfadyen, Ryan Reynolds</i></li>
+                              <li class="main-name">Production &nbsp;&nbsp;:&nbsp;<i class="name">2024 Movies </i></li>
+                              <li class="main-name">Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<i class="name">Action Movies, Comedy Movies, Adventure Movies</i></li>
+                             </ul>
+                          </div>
+                         </div>
+
+                      <iframe width="90%" height="480" src="https://www.youtube.com/embed/73_1biulkYk" title="Deadpool &amp; Wolverine | Official Trailer | In Theaters July 26" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="watch" ></iframe>
+                      
+<div class="container">
+  <h2>Movie Reviews</h2>
+  
+  <div id="comment-form">
+      <input type="text" id="user-name" class="input" placeholder="write your name"><br>
+      <textarea id="comment-text" rows="4" placeholder="Write your comment"></textarea><br>
+      <button onclick="addComment()">Leave a comment</button>
+  </div>
+  
+  <h3>Comments</h3>
+  <ul id="comment-list">
+  </ul>
+</div>
+                   </div>
+                   
+                   </div>
+                  
+             
+            </section>
+        </main>
+
+        <footer>
+          <section>
+              <div class="about">
+                  
+               <div class="about-main">
+              <h1 style="width: 100%; display: flex; justify-content: center;margin-top: 0;" >Watch Movies</h1>
+              <br>
+                  Enjoy Watching
+                    <hr>
+                    <br>
+                    <h3>© 2024-2025 WatchFilm</h3>
+               </div>
+                </div>
+                <br><br><br>
+          </section>
+         </footer>
+        <script src="film.js"></script>
+</body>
+</html>
